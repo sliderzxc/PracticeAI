@@ -2,6 +2,11 @@ from PIL import Image
 
 
 class HandleImage:
+
+    def __init__(self):
+        pass
+
+    @staticmethod
     def handle(image_path):
         image = Image.open(image_path)
         pixels = image.load()
