@@ -101,5 +101,4 @@ colors_names = np.array([
     'Light Pink',
     'Hot Pink',
     'Deep Pink',
-    'Pale Violet Red',
 ])
